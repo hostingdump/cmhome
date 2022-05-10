@@ -1,0 +1,56 @@
+body {
+  background-image: url("../res/pencils.jpg");
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+#splash {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#splash img {
+  margin-top: 10px;
+  max-width: 700px;
+  max-height: 700px;
+  width: auto;
+  height: auto;
+  border-color: #fff;
+  border-radius: 20px;
+}
+
+.heading {
+  background-color: #03bafc;
+  border-color: #03bafc;
+  border-radius: 20px;
+  text-align: center;
+  padding: 0px 20px;
+}
+
+@font-face {
+  font-family: Matcha;
+  src: url(../doc/matcha.ttf); /* credits to www.instagram.com/heyorenari */
+}
+
+.heading>h1 {
+  color: #000;
+  font-family: Matcha, sans-serif;
+  letter-spacing: 2px;
+  font-size: 4em;
+}
+
+.about {
+  margin-top: 10px;
+  background-color: #42f5c8;
+  border-color: #42f5c8;
+  border-radius: 20px;
+  padding: 0px 20px;
+}
+
+.about>p {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
